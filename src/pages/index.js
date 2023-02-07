@@ -16,8 +16,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <MortgageDisplay title={"Mortgage One"} />
-        <MortgageDisplay title={"Mortgage Two"} />
+        <div className="flex justify-around bg-slate-200 p-2">
+          <MortgageDisplay title={"Mortgage One"} />
+          <MortgageDisplay title={"Mortgage Two"} />
+        </div>
       </main>
     </>
   );
